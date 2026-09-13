@@ -1,0 +1,8 @@
+services:
+  spam-app:
+    build: .
+    image: sms-spam-nb:1.1
+    container_name: sms-spam-nb
+    ports:
+      - "8501:8501"
+    restart: unless-stopped

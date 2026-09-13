@@ -1,7 +1,8 @@
-fastapi
-uvicorn
-pydantic
-pandas
-numpy
-scikit-learn
-joblib
+# Thư viện để chạy web demo (app.py)
+# Ghim phiên bản: spam_model.pkl được lưu bằng scikit-learn 1.9.0,
+# nạp lại bằng phiên bản khác có thể cảnh báo hoặc sai kết quả.
+numpy==2.4.6
+pandas==3.0.3
+scikit-learn==1.9.0
+joblib==1.5.3
+streamlit==1.63.0
