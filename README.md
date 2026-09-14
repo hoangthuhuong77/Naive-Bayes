@@ -42,4 +42,4 @@ Mỗi kết quả chỉ nên xem là gợi ý phân loại sơ bộ, tin nghi ng
 
 ## Kiểm thử
 
-Dự án hiện chưa có bộ test tự động (pytest). Việc đánh giá model được thực hiện trong notebook (Bước 8–9): `classification_report`, ma trận nhầm lẫn, đường cong Precision-Recall/ROC, và so sánh với baseline (`DummyClassifier`) trên tập test giữ riêng khỏi quá trình huấn luyện.
+ Việc đánh giá model được thực hiện trong notebook (Bước 8–9): `classification_report`, ma trận nhầm lẫn, đường cong Precision-Recall/ROC, và so sánh với baseline (`DummyClassifier`) trên tập test giữ riêng khỏi quá trình huấn luyện.
